@@ -1,13 +1,145 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+
+.container{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: auto;
+    
+ 
+ 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.inputWrap{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    width: 60%;
+    height: 100%;
+    padding: 20px;
+    background-color: aquamarine;
+    
+}
+
+.countWrap{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    width: 60%;
+    height: 100%;
+    display:grid;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+
+}
+
+.count{
+    
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    
+    align-items: center;
+    color:rgb(0, 0, 0);
+    font-size: 200px
+
+}
+
+.heart{
+    
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    
+    align-items: center;
+    color:rgb(0, 0, 0);
+    font-size: 200px
+
+}
+.inputText{
+    width:100%;
+    position: relative;
+}
+
+.inputPwd{
+    width:100%;
+    position: relative;
+
+}
+.inputIcon {
+    width: 100px;
+    position: absolute;
+    top: 12px;
+    right:-25px;
+    font-size:x-large;
+    color: black;
+
+  }
+input{
+    width:100%;
+    padding: 20px;
+    box-sizing: border-box;
+    height:50px;
+    border-radius: 10px;
+    border: 0px;
+
+
+}
+
+.heartFilled{
+    
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    
+    align-items: center;
+    color:rgb(205, 0, 0);
+    font-size: 200px
+
+}
+button{
+    padding:15px 20px;
+    background-color: rgb(100, 100, 103);
+    color: beige;
+    border-radius: 10px;
+    border:0px;
+}
+
+
+
+.countCircle{
+    padding: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(0, 6, 31, 0.979);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.countCircle2{
+    padding: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(5, 0, 39);
+    
+}
+
+
+
+body{
+    font-family: 'Inter', sans-serif;
 }
